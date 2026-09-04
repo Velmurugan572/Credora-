@@ -1,0 +1,716 @@
+{
+  "users": [
+    {
+      "id": "usr_jordan_davis_01",
+      "name": "Jordan Davis",
+      "email": "jordan.davis@example.com",
+      "passwordHash": "f4bcb8897caa7fba3b0759d305d074008717be0315ba49dbeaea40748e31713d",
+      "salt": "demo_salt_credora",
+      "memberSince": "2024",
+      "createdAt": "2026-09-04T09:56:57.879Z",
+      "hasData": true,
+      "occupation": "Auto/Taxi Driver",
+      "scoringResult": {
+        "score": 785,
+        "maxScore": 900,
+        "scoring_engine_version": "v1.0",
+        "tier": "Good",
+        "topPercent": "Top 15%",
+        "factor_breakdown": {
+          "income_stability": {
+            "factorKey": "income_stability",
+            "factorName": "Income Stability (Baseline Adjusted)",
+            "subScore": 185,
+            "maxScore": 200,
+            "weight": 22.2,
+            "status": "positive",
+            "reason": "Income Volatility: 185/200 — Raw volatility 43% is within trade baseline band (30–45%) for Auto/Taxi Driver. No penalty applied."
+          },
+          "savings_behavior": {
+            "factorKey": "savings_behavior",
+            "factorName": "Savings Behavior & Retention",
+            "subScore": 145,
+            "maxScore": 150,
+            "weight": 16.7,
+            "status": "positive",
+            "reason": "Savings Behavior: 145/150 — Excellent savings retention (50% of income retained)."
+          },
+          "expense_stability": {
+            "factorKey": "expense_stability",
+            "factorName": "Expense Outflow Predictability",
+            "subScore": 100,
+            "maxScore": 150,
+            "weight": 16.7,
+            "status": "attention",
+            "reason": "Expense Stability: 100/150 — Fluctuating monthly debit outflows (63% variance)."
+          },
+          "payment_consistency": {
+            "factorKey": "payment_consistency",
+            "factorName": "Recurring Bill & EMI Discipline",
+            "subScore": 135,
+            "maxScore": 150,
+            "weight": 16.7,
+            "status": "positive",
+            "reason": "Payment Consistency: 135/150 — 2 recurring monthly bill/EMI obligations verified on-time."
+          },
+          "repayment_capacity": {
+            "factorKey": "repayment_capacity",
+            "factorName": "Net Repayment Margin",
+            "subScore": 145,
+            "maxScore": 150,
+            "weight": 16.7,
+            "status": "positive",
+            "reason": "Repayment Capacity: 145/150 — Strong disposable buffer (50% net disposable margin)."
+          },
+          "financial_risk": {
+            "factorKey": "financial_risk",
+            "factorName": "Liquidity Buffer & Risk Index",
+            "subScore": 75,
+            "maxScore": 100,
+            "weight": 11.1,
+            "status": "positive",
+            "reason": "Financial Risk: 75/100 — 0 low buffer days (< ₹1,000 balance) recorded in 90-day window."
+          }
+        },
+        "anomaly_flags": [],
+        "occupation": "Auto/Taxi Driver",
+        "occupationAdjustmentReason": "Income Volatility: 185/200 — Raw volatility 43% is within trade baseline band (30–45%) for Auto/Taxi Driver. No penalty applied.",
+        "calculatedAt": "2026-09-04T13:34:31.716Z",
+        "summaryStats": {
+          "avgMonthlyIncome": 17579,
+          "avgMonthlyExpense": 8835,
+          "netSavings": 23900,
+          "transactionCount": 30,
+          "daysAnalyzed": 82
+        }
+      },
+      "uploadedFileName": "sample_taxi_90day.csv",
+      "uploadedAt": "2026-09-04T13:34:31.718Z"
+    },
+    {
+      "id": "usr_1788517516720_785",
+      "name": "Rishikesh",
+      "email": "rishikeshk.it2024@citchennai.net",
+      "passwordHash": "a366d893002286e1009428874d12898ce4e822d4e0b2b432e94a16f8886858b7",
+      "salt": "5fe970f5e0da44d19031d37cce33a758",
+      "memberSince": "2026",
+      "createdAt": "2026-09-04T10:25:16.720Z",
+      "hasData": true,
+      "occupation": "Auto/Taxi Driver",
+      "scoringResult": {
+        "score": 785,
+        "maxScore": 900,
+        "scoring_engine_version": "v1.0",
+        "tier": "Good",
+        "topPercent": "Top 15%",
+        "factor_breakdown": {
+          "income_stability": {
+            "factorKey": "income_stability",
+            "factorName": "Income Stability (Baseline Adjusted)",
+            "subScore": 185,
+            "maxScore": 200,
+            "weight": 22.2,
+            "status": "positive",
+            "reason": "Income Volatility: 185/200 — Raw volatility 43% is within trade baseline band (30–45%) for Auto/Taxi Driver. No penalty applied."
+          },
+          "savings_behavior": {
+            "factorKey": "savings_behavior",
+            "factorName": "Savings Behavior & Retention",
+            "subScore": 145,
+            "maxScore": 150,
+            "weight": 16.7,
+            "status": "positive",
+            "reason": "Savings Behavior: 145/150 — Excellent savings retention (50% of income retained)."
+          },
+          "expense_stability": {
+            "factorKey": "expense_stability",
+            "factorName": "Expense Outflow Predictability",
+            "subScore": 100,
+            "maxScore": 150,
+            "weight": 16.7,
+            "status": "attention",
+            "reason": "Expense Stability: 100/150 — Fluctuating monthly debit outflows (63% variance)."
+          },
+          "payment_consistency": {
+            "factorKey": "payment_consistency",
+            "factorName": "Recurring Bill & EMI Discipline",
+            "subScore": 135,
+            "maxScore": 150,
+            "weight": 16.7,
+            "status": "positive",
+            "reason": "Payment Consistency: 135/150 — 2 recurring monthly bill/EMI obligations verified on-time."
+          },
+          "repayment_capacity": {
+            "factorKey": "repayment_capacity",
+            "factorName": "Net Repayment Margin",
+            "subScore": 145,
+            "maxScore": 150,
+            "weight": 16.7,
+            "status": "positive",
+            "reason": "Repayment Capacity: 145/150 — Strong disposable buffer (50% net disposable margin)."
+          },
+          "financial_risk": {
+            "factorKey": "financial_risk",
+            "factorName": "Liquidity Buffer & Risk Index",
+            "subScore": 75,
+            "maxScore": 100,
+            "weight": 11.1,
+            "status": "positive",
+            "reason": "Financial Risk: 75/100 — 0 low buffer days (< ₹1,000 balance) recorded in 90-day window."
+          }
+        },
+        "anomaly_flags": [],
+        "occupation": "Auto/Taxi Driver",
+        "occupationAdjustmentReason": "Income Volatility: 185/200 — Raw volatility 43% is within trade baseline band (30–45%) for Auto/Taxi Driver. No penalty applied.",
+        "calculatedAt": "2026-09-04T11:39:26.659Z",
+        "summaryStats": {
+          "avgMonthlyIncome": 17579,
+          "avgMonthlyExpense": 8835,
+          "netSavings": 23900,
+          "transactionCount": 30,
+          "daysAnalyzed": 82
+        }
+      },
+      "uploadedFileName": "sample_taxi_90day.csv",
+      "uploadedAt": "2026-09-04T11:39:26.664Z"
+    },
+    {
+      "id": "usr_1788523832565_645",
+      "name": "Test User",
+      "email": "testuser_1788523832226@example.com",
+      "passwordHash": "baa049985d8edff966231956b44a87b06a53885f240c5d926a0ae48b9b495118",
+      "salt": "3b655f35b7ce9282ad8de8190c7da4c5",
+      "memberSince": "2026",
+      "createdAt": "2026-09-04T12:10:32.565Z",
+      "hasData": false,
+      "occupation": "Kirana Shop",
+      "language": "en",
+      "uploadedFileName": null,
+      "uploadedAt": null,
+      "scoringResult": null
+    }
+  ],
+  "accounts": [
+    {
+      "id": "acc_1",
+      "userId": "usr_jordan_davis_01",
+      "name": "HDFC Bank (Primary Salary Account)",
+      "type": "Salary Account",
+      "balance": "₹2,45,000.00",
+      "numericBalance": 245000,
+      "status": "Connected",
+      "lastSynced": "12 mins ago",
+      "plaidId": "acc_hdfc_94102",
+      "active": true
+    },
+    {
+      "id": "acc_2",
+      "userId": "usr_jordan_davis_01",
+      "name": "ICICI Bank High Yield Savings",
+      "type": "Savings Account",
+      "balance": "₹3,50,000.00",
+      "numericBalance": 350000,
+      "status": "Connected",
+      "lastSynced": "1 hour ago",
+      "plaidId": "acc_icici_22091",
+      "active": true
+    },
+    {
+      "id": "acc_3",
+      "userId": "usr_jordan_davis_01",
+      "name": "Razorpay / UPI Payout Hub",
+      "type": "Income Source",
+      "balance": "₹65,000 / mo avg",
+      "numericBalance": 65000,
+      "status": "Connected",
+      "lastSynced": "2 hours ago",
+      "plaidId": "acc_razor_88190",
+      "active": true
+    },
+    {
+      "id": "acc_4",
+      "userId": "usr_jordan_davis_01",
+      "name": "SBI Credit Card Line",
+      "type": "Credit Card",
+      "balance": "₹45,000 balance",
+      "numericBalance": -45000,
+      "status": "Action Required",
+      "lastSynced": "Needs Re-Auth",
+      "plaidId": "acc_sbi_11029",
+      "active": false
+    }
+  ],
+  "telemetry": {
+    "usr_jordan_davis_01": {
+      "userId": "usr_jordan_davis_01",
+      "score": 775,
+      "previousScore": 775,
+      "scoreMovement": 0,
+      "tier": "Good",
+      "topPercent": "Top 15%",
+      "incomeStabilityScore": 98,
+      "billDisciplineScore": 98,
+      "emergencyBufferScore": 95,
+      "cardUtilizationScore": 95,
+      "historyScore": 75,
+      "accountDiversityScore": 75,
+      "updatedAt": "2026-09-04T10:12:35.170Z"
+    },
+    "usr_1788517516720_785": {
+      "userId": "usr_1788517516720_785",
+      "score": 0,
+      "previousScore": 0,
+      "scoreMovement": 0,
+      "tier": "New Member",
+      "topPercent": "Pending Sync",
+      "incomeStabilityScore": 0,
+      "billDisciplineScore": 0,
+      "emergencyBufferScore": 0,
+      "cardUtilizationScore": 0,
+      "historyScore": 0,
+      "accountDiversityScore": 0,
+      "updatedAt": "2026-09-04T10:50:42.124Z"
+    }
+  },
+  "simulations": {
+    "usr_jordan_davis_01": {
+      "userId": "usr_jordan_davis_01",
+      "savingsContribution": 20000,
+      "expenseVariance": 15,
+      "debtAllocation": 30,
+      "projectedScore": 811,
+      "pointsGained": 26,
+      "updatedAt": "2026-09-04T13:46:25.101Z"
+    },
+    "usr_1788517516720_785": {
+      "userId": "usr_1788517516720_785",
+      "savingsContribution": 25000,
+      "expenseVariance": 15,
+      "debtAllocation": 30,
+      "projectedScore": 742,
+      "pointsGained": 22,
+      "updatedAt": "2026-09-04T10:25:16.720Z"
+    }
+  },
+  "advisor_chats": {
+    "usr_jordan_davis_01": [
+      {
+        "id": "msg_1",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "Namaste Jordan! I'm your Credora AI Financial Advisor. Based on your cash flow telemetry, your score is 742 (Good). How can I assist your financial growth today?",
+        "timestamp": "Just now"
+      },
+      {
+        "id": "msg_1788528443243",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "machii",
+        "timestamp": "06:57 pm"
+      },
+      {
+        "id": "msg_1788528443264",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "Namaste! Based on your verified 90-day cash flow telemetry, your Credora Score is 712 / 712 (Moderate). Your Kirana Shop baseline income score is 144/200. How can I assist your financial growth today?",
+        "timestamp": "06:57 pm"
+      },
+      {
+        "id": "msg_1788528762616",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "Why is my credit score low?",
+        "timestamp": "07:02 pm"
+      },
+      {
+        "id": "msg_1788528762625",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **Direct Answer**: Your current Credora Score is **785 / 785** (Good, Top 15%) evaluated for your trade as a **Auto/Taxi Driver**.\n\n💡 **Why This Is Happening**:\nYour score is mainly impacted by: **Expense Volatility & Savings retention**.\n• Income Stability: **185/200** pts (Income Volatility: 185/200 — Raw volatility 43% is within trade baseline band (30–45%) for Auto/Taxi Driver. No penalty applied.).\n• Savings Retention: **145/150** pts.\n• Expense Stability: **100/150** pts.\n\n📊 **Insights From Available Data**:\n• Net Savings Rate: **15%**\n• Thin Liquid Buffer Days: **2 days** per month.\n\n🎯 **Recommended Actions**:\n1. Maintain a minimum ₹5,000 liquid cushion to reduce thin buffer penalties (+14 pts).\n2. Smooth out monthly UPI & vendor purchasing variance (+10 pts).\n\n⚡ **Priority Level**: High — Building liquid buffer is your fastest growth lever.",
+        "timestamp": "07:02 pm"
+      },
+      {
+        "id": "msg_1788528762725",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "எனது credit score ஏன் குறைந்துள்ளது?",
+        "timestamp": "07:02 pm"
+      },
+      {
+        "id": "msg_1788528762736",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **நேரடி பதில்**: உங்கள் தற்போதைய Credora மதிப்பெண் **785 / 785** (Good). உங்கள் Auto/Taxi Driver தொழில் பிரிவுக்கு கணக்கிடப்பட்ட தரவுகளின் அடிப்படையில், மதிப்பெண் குறைய முக்கிய காரணி: **Expense Volatility & Savings retention**.\n\n💡 **ஏன் இது நிகழ்கிறது**:\n• வருமான நிலைத்தன்மை (Income Stability): **185/200** புள்ளிகள்.\n• சேமிப்பு பராமரிப்பு (Savings Retention): **145/150** புள்ளிகள்.\n• செலவு மாறுபாடு (Expense Stability): **100/150** புள்ளிகள்.\n\n📊 **தரவு விவரங்கள்**:\n• சராசரி சேமிப்பு விகிதம்: **15%**\n• குறைந்த இருப்பு நாட்கள் (Thin Buffer Days): **2 நாட்கள்**\n\n🎯 **பரிந்துரைக்கப்பட்ட நடவடிக்கைகள்**:\n1. மாதம்தோறும் குறைந்தபட்சம் ₹5,000 அவசர சேமிப்பு இருப்பை பராமரிக்கவும் (+14 புள்ளிகள்).\n2. வாராந்திர செலவு மாறுபாட்டை 20% க்குள் கட்டுப்படுத்தவும் (+10 புள்ளிகள்).\n\n⚡ **முன்னுரிமை நிலை**: உயர்மட்டம் (High Priority) — சேமிப்பு இருப்பை அதிகரிப்பதே முதல் படி.",
+        "timestamp": "07:02 pm"
+      },
+      {
+        "id": "msg_1788528762865",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "Machan en score yen kammi iruku?",
+        "timestamp": "07:02 pm"
+      },
+      {
+        "id": "msg_1788528762891",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **நேரடி பதில்**: உங்கள் தற்போதைய Credora மதிப்பெண் **785 / 785** (Good). உங்கள் Auto/Taxi Driver தொழில் பிரிவுக்கு கணக்கிடப்பட்ட தரவுகளின் அடிப்படையில், மதிப்பெண் குறைய முக்கிய காரணி: **Expense Volatility & Savings retention**.\n\n💡 **ஏன் இது நிகழ்கிறது**:\n• வருமான நிலைத்தன்மை (Income Stability): **185/200** புள்ளிகள்.\n• சேமிப்பு பராமரிப்பு (Savings Retention): **145/150** புள்ளிகள்.\n• செலவு மாறுபாடு (Expense Stability): **100/150** புள்ளிகள்.\n\n📊 **தரவு விவரங்கள்**:\n• சராசரி சேமிப்பு விகிதம்: **15%**\n• குறைந்த இருப்பு நாட்கள் (Thin Buffer Days): **2 நாட்கள்**\n\n🎯 **பரிந்துரைக்கப்பட்ட நடவடிக்கைகள்**:\n1. மாதம்தோறும் குறைந்தபட்சம் ₹5,000 அவசர சேமிப்பு இருப்பை பராமரிக்கவும் (+14 புள்ளிகள்).\n2. வாராந்திர செலவு மாறுபாட்டை 20% க்குள் கட்டுப்படுத்தவும் (+10 புள்ளிகள்).\n\n⚡ **முன்னுரிமை நிலை**: உயர்மட்டம் (High Priority) — சேமிப்பு இருப்பை அதிகரிப்பதே முதல் படி.",
+        "timestamp": "07:02 pm"
+      },
+      {
+        "id": "msg_1788528762924",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "मेरा क्रेडिट स्कोर कम क्यों है?",
+        "timestamp": "07:02 pm"
+      },
+      {
+        "id": "msg_1788528762931",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **प्रत्यक्ष उत्तर**: आपका वर्तमान क्रेडोरा स्कोर **785 / 785** (Good) है। आपके Auto/Taxi Driver व्यापार प्रोफाइल के अनुसार स्कोर प्रभावित होने का मुख्य कारण: **Expense Volatility & Savings retention** है।\n\n💡 **यह क्यों हो रहा है**:\n• आय स्थिरता (Income Stability): **185/200** अंक।\n• बचत दर (Savings Retention): **145/150** अंक।\n• व्यय स्थिरता (Expense Stability): **100/150** अंक।\n\n📊 **डेटा इनसाइट्स**:\n• नेट मासिक बचत दर: **15%**\n• कम लिक्विडिटी वाले दिन: **2 दिन**\n\n🎯 **सुझाई गई कार्रवाई**:\n1. हर महीने कम से कम ₹5,000 लिक्विड बफर बनाए रखें (+14 अंक)।\n2. अनावश्यक यूपीआई आउटफ्लो को 15% तक सीमित करें (+10 अंक)।\n\n⚡ **प्राथमिकता स्तर**: उच्च (High Priority) — बचत बफर बनाए रखना सबसे महत्वपूर्ण है।",
+        "timestamp": "07:02 pm"
+      },
+      {
+        "id": "msg_1788528762961",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "Mera score itna low kyu hai?",
+        "timestamp": "07:02 pm"
+      },
+      {
+        "id": "msg_1788528762969",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **प्रत्यक्ष उत्तर**: आपका वर्तमान क्रेडोरा स्कोर **785 / 785** (Good) है। आपके Auto/Taxi Driver व्यापार प्रोफाइल के अनुसार स्कोर प्रभावित होने का मुख्य कारण: **Expense Volatility & Savings retention** है।\n\n💡 **यह क्यों हो रहा है**:\n• आय स्थिरता (Income Stability): **185/200** अंक।\n• बचत दर (Savings Retention): **145/150** अंक।\n• व्यय स्थिरता (Expense Stability): **100/150** अंक।\n\n📊 **डेटा इनसाइट्स**:\n• नेट मासिक बचत दर: **15%**\n• कम लिक्विडिटी वाले दिन: **2 दिन**\n\n🎯 **सुझाई गई कार्रवाई**:\n1. हर महीने कम से कम ₹5,000 लिक्विड बफर बनाए रखें (+14 अंक)।\n2. अनावश्यक यूपीआई आउटफ्लो को 15% तक सीमित करें (+10 अंक)।\n\n⚡ **प्राथमिकता स्तर**: उच्च (High Priority) — बचत बफर बनाए रखना सबसे महत्वपूर्ण है।",
+        "timestamp": "07:02 pm"
+      },
+      {
+        "id": "msg_1788528762997",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "माझा क्रेडिट स्कोअर कसा सुधारू?",
+        "timestamp": "07:02 pm"
+      },
+      {
+        "id": "msg_1788528763004",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **थेट उत्तर**: तुमचा Credora स्कोअर **785** वरून **785+** वर नेण्यासाठी पुढील ३ पायऱ्या पूर्ण करा:\n\n💡 **सुधारणा योजना**:\n१. **मासिक बचत (+१४ गुण)**: मासिक बचत ₹२५,००० पर्यंत वाढवा. सध्याचे गुण: 145/150.\n२. **खर्च स्थिरता (+१० गुण)**: व्यवहारांमधील अचानक होणारे बदल १५% पेक्षा कमी ठेवा.\n३. **वेळेवर पेमेंट (+१२ गुण)**: सर्व बिल आणि ईएमआय वेळेवर भरा.\n\n📊 **डेटा इनसाइट्स**: Auto/Taxi Driver व्यवसायासाठी उत्पन्न गुण 185/200 आहेत.\n\n🎯 **पुढील पायरी**: सिम्युलेटर पेजवर जाऊन बदल तपासा.",
+        "timestamp": "07:02 pm"
+      },
+      {
+        "id": "msg_1788528782269",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "Why is my credit score low?",
+        "timestamp": "07:03 pm"
+      },
+      {
+        "id": "msg_1788528782277",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **Direct Answer**: Your current Credora Score is **785 / 900** (Good, Top 15%) evaluated for your trade as a **Auto/Taxi Driver**.\n\n💡 **Why This Is Happening**:\nYour score is mainly impacted by: **Expense Volatility & Savings retention**.\n• Income Stability: **185/200** pts (Income Volatility: 185/200 — Raw volatility 43% is within trade baseline band (30–45%) for Auto/Taxi Driver. No penalty applied.).\n• Savings Retention: **145/150** pts.\n• Expense Stability: **100/150** pts.\n\n📊 **Insights From Available Data**:\n• Net Savings Rate: **15%**\n• Thin Liquid Buffer Days: **2 days** per month.\n\n🎯 **Recommended Actions**:\n1. Maintain a minimum ₹5,000 liquid cushion to reduce thin buffer penalties (+14 pts).\n2. Smooth out monthly UPI & vendor purchasing variance (+10 pts).\n\n⚡ **Priority Level**: High — Building liquid buffer is your fastest growth lever.",
+        "timestamp": "07:03 pm"
+      },
+      {
+        "id": "msg_1788528782301",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "எனது credit score ஏன் குறைந்துள்ளது?",
+        "timestamp": "07:03 pm"
+      },
+      {
+        "id": "msg_1788528782307",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **நேரடி பதில்**: உங்கள் தற்போதைய Credora மதிப்பெண் **785 / 900** (Good). உங்கள் Auto/Taxi Driver தொழில் பிரிவுக்கு கணக்கிடப்பட்ட தரவுகளின் அடிப்படையில், மதிப்பெண் குறைய முக்கிய காரணி: **Expense Volatility & Savings retention**.\n\n💡 **ஏன் இது நிகழ்கிறது**:\n• வருமான நிலைத்தன்மை (Income Stability): **185/200** புள்ளிகள்.\n• சேமிப்பு பராமரிப்பு (Savings Retention): **145/150** புள்ளிகள்.\n• செலவு மாறுபாடு (Expense Stability): **100/150** புள்ளிகள்.\n\n📊 **தரவு விவரங்கள்**:\n• சராசரி சேமிப்பு விகிதம்: **15%**\n• குறைந்த இருப்பு நாட்கள் (Thin Buffer Days): **2 நாட்கள்**\n\n🎯 **பரிந்துரைக்கப்பட்ட நடவடிக்கைகள்**:\n1. மாதம்தோறும் குறைந்தபட்சம் ₹5,000 அவசர சேமிப்பு இருப்பை பராமரிக்கவும் (+14 புள்ளிகள்).\n2. வாராந்திர செலவு மாறுபாட்டை 20% க்குள் கட்டுப்படுத்தவும் (+10 புள்ளிகள்).\n\n⚡ **முன்னுரிமை நிலை**: உயர்மட்டம் (High Priority) — சேமிப்பு இருப்பை அதிகரிப்பதே முதல் படி.",
+        "timestamp": "07:03 pm"
+      },
+      {
+        "id": "msg_1788528782333",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "Machan en score yen kammi iruku?",
+        "timestamp": "07:03 pm"
+      },
+      {
+        "id": "msg_1788528782340",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **நேரடி பதில்**: உங்கள் தற்போதைய Credora மதிப்பெண் **785 / 900** (Good). உங்கள் Auto/Taxi Driver தொழில் பிரிவுக்கு கணக்கிடப்பட்ட தரவுகளின் அடிப்படையில், மதிப்பெண் குறைய முக்கிய காரணி: **Expense Volatility & Savings retention**.\n\n💡 **ஏன் இது நிகழ்கிறது**:\n• வருமான நிலைத்தன்மை (Income Stability): **185/200** புள்ளிகள்.\n• சேமிப்பு பராமரிப்பு (Savings Retention): **145/150** புள்ளிகள்.\n• செலவு மாறுபாடு (Expense Stability): **100/150** புள்ளிகள்.\n\n📊 **தரவு விவரங்கள்**:\n• சராசரி சேமிப்பு விகிதம்: **15%**\n• குறைந்த இருப்பு நாட்கள் (Thin Buffer Days): **2 நாட்கள்**\n\n🎯 **பரிந்துரைக்கப்பட்ட நடவடிக்கைகள்**:\n1. மாதம்தோறும் குறைந்தபட்சம் ₹5,000 அவசர சேமிப்பு இருப்பை பராமரிக்கவும் (+14 புள்ளிகள்).\n2. வாராந்திர செலவு மாறுபாட்டை 20% க்குள் கட்டுப்படுத்தவும் (+10 புள்ளிகள்).\n\n⚡ **முன்னுரிமை நிலை**: உயர்மட்டம் (High Priority) — சேமிப்பு இருப்பை அதிகரிப்பதே முதல் படி.",
+        "timestamp": "07:03 pm"
+      },
+      {
+        "id": "msg_1788528782367",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "मेरा क्रेडिट स्कोर कम क्यों है?",
+        "timestamp": "07:03 pm"
+      },
+      {
+        "id": "msg_1788528782373",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **प्रत्यक्ष उत्तर**: आपका वर्तमान क्रेडोरा स्कोर **785 / 900** (Good) है। आपके Auto/Taxi Driver व्यापार प्रोफाइल के अनुसार स्कोर प्रभावित होने का मुख्य कारण: **Expense Volatility & Savings retention** है।\n\n💡 **यह क्यों हो रहा है**:\n• आय स्थिरता (Income Stability): **185/200** अंक।\n• बचत दर (Savings Retention): **145/150** अंक।\n• व्यय स्थिरता (Expense Stability): **100/150** अंक।\n\n📊 **डेटा इनसाइट्स**:\n• नेट मासिक बचत दर: **15%**\n• कम लिक्विडिटी वाले दिन: **2 दिन**\n\n🎯 **सुझाई गई कार्रवाई**:\n1. हर महीने कम से कम ₹5,000 लिक्विड बफर बनाए रखें (+14 अंक)।\n2. अनावश्यक यूपीआई आउटफ्लो को 15% तक सीमित करें (+10 अंक)।\n\n⚡ **प्राथमिकता स्तर**: उच्च (High Priority) — बचत बफर बनाए रखना सबसे महत्वपूर्ण है।",
+        "timestamp": "07:03 pm"
+      },
+      {
+        "id": "msg_1788528782401",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "Mera score itna low kyu hai?",
+        "timestamp": "07:03 pm"
+      },
+      {
+        "id": "msg_1788528782407",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **प्रत्यक्ष उत्तर**: आपका वर्तमान क्रेडोरा स्कोर **785 / 900** (Good) है। आपके Auto/Taxi Driver व्यापार प्रोफाइल के अनुसार स्कोर प्रभावित होने का मुख्य कारण: **Expense Volatility & Savings retention** है।\n\n💡 **यह क्यों हो रहा है**:\n• आय स्थिरता (Income Stability): **185/200** अंक।\n• बचत दर (Savings Retention): **145/150** अंक।\n• व्यय स्थिरता (Expense Stability): **100/150** अंक।\n\n📊 **डेटा इनसाइट्स**:\n• नेट मासिक बचत दर: **15%**\n• कम लिक्विडिटी वाले दिन: **2 दिन**\n\n🎯 **सुझाई गई कार्रवाई**:\n1. हर महीने कम से कम ₹5,000 लिक्विड बफर बनाए रखें (+14 अंक)।\n2. अनावश्यक यूपीआई आउटफ्लो को 15% तक सीमित करें (+10 अंक)।\n\n⚡ **प्राथमिकता स्तर**: उच्च (High Priority) — बचत बफर बनाए रखना सबसे महत्वपूर्ण है।",
+        "timestamp": "07:03 pm"
+      },
+      {
+        "id": "msg_1788528782435",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "माझा क्रेडिट स्कोअर कसा सुधारू?",
+        "timestamp": "07:03 pm"
+      },
+      {
+        "id": "msg_1788528782443",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **थेट उत्तर**: तुमचा Credora स्कोअर **785** वरून **785+** वर नेण्यासाठी पुढील ३ पायऱ्या पूर्ण करा:\n\n💡 **सुधारणा योजना**:\n१. **मासिक बचत (+१४ गुण)**: मासिक बचत ₹२५,००० पर्यंत वाढवा. सध्याचे गुण: 145/150.\n२. **खर्च स्थिरता (+१० गुण)**: व्यवहारांमधील अचानक होणारे बदल १५% पेक्षा कमी ठेवा.\n३. **वेळेवर पेमेंट (+१२ गुण)**: सर्व बिल आणि ईएमआय वेळेवर भरा.\n\n📊 **डेटा इनसाइट्स**: Auto/Taxi Driver व्यवसायासाठी उत्पन्न गुण 185/200 आहेत.\n\n🎯 **पुढील पायरी**: सिम्युलेटर पेजवर जाऊन बदल तपासा.",
+        "timestamp": "07:03 pm"
+      },
+      {
+        "id": "msg_1788528872322",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "Why is my credit score low?",
+        "timestamp": "07:04 pm"
+      },
+      {
+        "id": "msg_1788528872330",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **Direct Answer**: Your current Credora Score is **785 / 900** (Good, Top 15%) evaluated for your trade as a **Auto/Taxi Driver**.\n\n💡 **Why This Is Happening**:\nYour score is mainly impacted by: **Expense Volatility & Savings retention**.\n• Income Stability: **185/200** pts (Income Volatility: 185/200 — Raw volatility 43% is within trade baseline band (30–45%) for Auto/Taxi Driver. No penalty applied.).\n• Savings Retention: **145/150** pts.\n• Expense Stability: **100/150** pts.\n\n📊 **Insights From Available Data**:\n• Net Savings Rate: **136%**\n• Thin Liquid Buffer Days: **2 days** per month.\n\n🎯 **Recommended Actions**:\n1. Maintain a minimum ₹5,000 liquid cushion to reduce thin buffer penalties (+14 pts).\n2. Smooth out monthly UPI & vendor purchasing variance (+10 pts).\n\n⚡ **Priority Level**: High — Building liquid buffer is your fastest growth lever.",
+        "timestamp": "07:04 pm"
+      },
+      {
+        "id": "msg_1788528872394",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "எனது credit score ஏன் குறைந்துள்ளது?",
+        "timestamp": "07:04 pm"
+      },
+      {
+        "id": "msg_1788528872400",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **நேரடி பதில்**: உங்கள் தற்போதைய Credora மதிப்பெண் **785 / 900** (Good). உங்கள் Auto/Taxi Driver தொழில் பிரிவுக்கு கணக்கிடப்பட்ட தரவுகளின் அடிப்படையில், மதிப்பெண் குறைய முக்கிய காரணி: **Expense Volatility & Savings retention**.\n\n💡 **ஏன் இது நிகழ்கிறது**:\n• வருமான நிலைத்தன்மை (Income Stability): **185/200** புள்ளிகள்.\n• சேமிப்பு பராமரிப்பு (Savings Retention): **145/150** புள்ளிகள்.\n• செலவு மாறுபாடு (Expense Stability): **100/150** புள்ளிகள்.\n\n📊 **தரவு விவரங்கள்**:\n• சராசரி சேமிப்பு விகிதம்: **136%**\n• குறைந்த இருப்பு நாட்கள் (Thin Buffer Days): **2 நாட்கள்**\n\n🎯 **பரிந்துரைக்கப்பட்ட நடவடிக்கைகள்**:\n1. மாதம்தோறும் குறைந்தபட்சம் ₹5,000 அவசர சேமிப்பு இருப்பை பராமரிக்கவும் (+14 புள்ளிகள்).\n2. வாராந்திர செலவு மாறுபாட்டை 20% க்குள் கட்டுப்படுத்தவும் (+10 புள்ளிகள்).\n\n⚡ **முன்னுரிமை நிலை**: உயர்மட்டம் (High Priority) — சேமிப்பு இருப்பை அதிகரிப்பதே முதல் படி.",
+        "timestamp": "07:04 pm"
+      },
+      {
+        "id": "msg_1788528872504",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "Machan en score yen kammi iruku?",
+        "timestamp": "07:04 pm"
+      },
+      {
+        "id": "msg_1788528872511",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **நேரடி பதில்**: உங்கள் தற்போதைய Credora மதிப்பெண் **785 / 900** (Good). உங்கள் Auto/Taxi Driver தொழில் பிரிவுக்கு கணக்கிடப்பட்ட தரவுகளின் அடிப்படையில், மதிப்பெண் குறைய முக்கிய காரணி: **Expense Volatility & Savings retention**.\n\n💡 **ஏன் இது நிகழ்கிறது**:\n• வருமான நிலைத்தன்மை (Income Stability): **185/200** புள்ளிகள்.\n• சேமிப்பு பராமரிப்பு (Savings Retention): **145/150** புள்ளிகள்.\n• செலவு மாறுபாடு (Expense Stability): **100/150** புள்ளிகள்.\n\n📊 **தரவு விவரங்கள்**:\n• சராசரி சேமிப்பு விகிதம்: **136%**\n• குறைந்த இருப்பு நாட்கள் (Thin Buffer Days): **2 நாட்கள்**\n\n🎯 **பரிந்துரைக்கப்பட்ட நடவடிக்கைகள்**:\n1. மாதம்தோறும் குறைந்தபட்சம் ₹5,000 அவசர சேமிப்பு இருப்பை பராமரிக்கவும் (+14 புள்ளிகள்).\n2. வாராந்திர செலவு மாறுபாட்டை 20% க்குள் கட்டுப்படுத்தவும் (+10 புள்ளிகள்).\n\n⚡ **முன்னுரிமை நிலை**: உயர்மட்டம் (High Priority) — சேமிப்பு இருப்பை அதிகரிப்பதே முதல் படி.",
+        "timestamp": "07:04 pm"
+      },
+      {
+        "id": "msg_1788528872576",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "मेरा क्रेडिट स्कोर कम क्यों है?",
+        "timestamp": "07:04 pm"
+      },
+      {
+        "id": "msg_1788528872583",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **प्रत्यक्ष उत्तर**: आपका वर्तमान क्रेडोरा स्कोर **785 / 900** (Good) है। आपके Auto/Taxi Driver व्यापार प्रोफाइल के अनुसार स्कोर प्रभावित होने का मुख्य कारण: **Expense Volatility & Savings retention** है।\n\n💡 **यह क्यों हो रहा है**:\n• आय स्थिरता (Income Stability): **185/200** अंक।\n• बचत दर (Savings Retention): **145/150** अंक।\n• व्यय स्थिरता (Expense Stability): **100/150** अंक।\n\n📊 **डेटा इनसाइट्स**:\n• नेट मासिक बचत दर: **136%**\n• कम लिक्विडिटी वाले दिन: **2 दिन**\n\n🎯 **सुझाई गई कार्रवाई**:\n1. हर महीने कम से कम ₹5,000 लिक्विड बफर बनाए रखें (+14 अंक)।\n2. अनावश्यक यूपीआई आउटफ्लो को 15% तक सीमित करें (+10 अंक)।\n\n⚡ **प्राथमिकता स्तर**: उच्च (High Priority) — बचत बफर बनाए रखना सबसे महत्वपूर्ण है।",
+        "timestamp": "07:04 pm"
+      },
+      {
+        "id": "msg_1788528872607",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "Mera score itna low kyu hai?",
+        "timestamp": "07:04 pm"
+      },
+      {
+        "id": "msg_1788528872614",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **प्रत्यक्ष उत्तर**: आपका वर्तमान क्रेडोरा स्कोर **785 / 900** (Good) है। आपके Auto/Taxi Driver व्यापार प्रोफाइल के अनुसार स्कोर प्रभावित होने का मुख्य कारण: **Expense Volatility & Savings retention** है।\n\n💡 **यह क्यों हो रहा है**:\n• आय स्थिरता (Income Stability): **185/200** अंक।\n• बचत दर (Savings Retention): **145/150** अंक।\n• व्यय स्थिरता (Expense Stability): **100/150** अंक।\n\n📊 **डेटा इनसाइट्स**:\n• नेट मासिक बचत दर: **136%**\n• कम लिक्विडिटी वाले दिन: **2 दिन**\n\n🎯 **सुझाई गई कार्रवाई**:\n1. हर महीने कम से कम ₹5,000 लिक्विड बफर बनाए रखें (+14 अंक)।\n2. अनावश्यक यूपीआई आउटफ्लो को 15% तक सीमित करें (+10 अंक)।\n\n⚡ **प्राथमिकता स्तर**: उच्च (High Priority) — बचत बफर बनाए रखना सबसे महत्वपूर्ण है।",
+        "timestamp": "07:04 pm"
+      },
+      {
+        "id": "msg_1788528872636",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "माझा क्रेडिट स्कोअर कसा सुधारू?",
+        "timestamp": "07:04 pm"
+      },
+      {
+        "id": "msg_1788528872643",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "📌 **थेट उत्तर**: तुमचा Credora स्कोअर **785** वरून **785+** वर नेण्यासाठी पुढील ३ पायऱ्या पूर्ण करा:\n\n💡 **सुधारणा योजना**:\n१. **मासिक बचत (+१४ गुण)**: मासिक बचत ₹२५,००० पर्यंत वाढवा. सध्याचे गुण: 145/150.\n२. **खर्च स्थिरता (+१० गुण)**: व्यवहारांमधील अचानक होणारे बदल १५% पेक्षा कमी ठेवा.\n३. **वेळेवर पेमेंट (+१२ गुण)**: सर्व बिल आणि ईएमआय वेळेवर भरा.\n\n📊 **डेटा इनसाइट्स**: Auto/Taxi Driver व्यवसायासाठी उत्पन्न गुण 185/200 आहेत.\n\n🎯 **पुढील पायरी**: सिम्युलेटर पेजवर जाऊन बदल तपासा.",
+        "timestamp": "07:04 pm"
+      },
+      {
+        "id": "msg_1788529137014",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "Why is my credit score low?",
+        "timestamp": "07:08 pm"
+      },
+      {
+        "id": "msg_1788529137023",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "Your current Credora Score is 785 / 900 (Good, Top 15%) evaluated for your trade as a Auto/Taxi Driver. Your score is primarily influenced by Expense Volatility and Savings Retention (Expense Stability: 100/150, Savings Retention: 145/150). Maintaining a consistent liquid cushion of ₹5,000 and smoothing weekly vendor payments will help raise your score.",
+        "timestamp": "07:08 pm"
+      },
+      {
+        "id": "msg_1788529137083",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "எனது credit score ஏன் குறைந்துள்ளது?",
+        "timestamp": "07:08 pm"
+      },
+      {
+        "id": "msg_1788529137091",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "உங்கள் தற்போதைய Credora மதிப்பெண் 785 / 900 (Good) ஆகும் (Auto/Taxi Driver தொழில் சான்றளிக்கப்பட்டது). உங்கள் மதிப்பெண் முக்கியமாக Expense Volatility and Savings Retention (செலவு மதிப்பெண்: 100/150, சேமிப்பு: 145/150) ஆகியவற்றால் பாதிக்கப்பட்டுள்ளது. மாதம்தோறும் ₹5,000 அவசர சேமிப்பை பராமரிப்பது மற்றும் வாராந்திர செலவு மாறுபாட்டை சீராக்குவது உங்கள் மதிப்பெண்ணை உயர்த்த உதவும்.",
+        "timestamp": "07:08 pm"
+      },
+      {
+        "id": "msg_1788529137152",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "Machan en score yen kammi iruku?",
+        "timestamp": "07:08 pm"
+      },
+      {
+        "id": "msg_1788529137160",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "உங்கள் தற்போதைய Credora மதிப்பெண் 785 / 900 (Good) ஆகும் (Auto/Taxi Driver தொழில் சான்றளிக்கப்பட்டது). உங்கள் மதிப்பெண் முக்கியமாக Expense Volatility and Savings Retention (செலவு மதிப்பெண்: 100/150, சேமிப்பு: 145/150) ஆகியவற்றால் பாதிக்கப்பட்டுள்ளது. மாதம்தோறும் ₹5,000 அவசர சேமிப்பை பராமரிப்பது மற்றும் வாராந்திர செலவு மாறுபாட்டை சீராக்குவது உங்கள் மதிப்பெண்ணை உயர்த்த உதவும்.",
+        "timestamp": "07:08 pm"
+      },
+      {
+        "id": "msg_1788529137267",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "मेरा क्रेडिट स्कोर कम क्यों है?",
+        "timestamp": "07:08 pm"
+      },
+      {
+        "id": "msg_1788529137274",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "आपका वर्तमान क्रेडोरा स्कोर 785 / 900 (Good) है (Auto/Taxi Driver व्यापार के लिए मूल्यांकन)। आपका स्कोर मुख्य रूप से Expense Volatility and Savings Retention (व्यय स्कोर: 100/150, बचत स्कोर: 145/150) से प्रभावित है। ₹5,000 का लिक्विड बफर बनाए रखने और अनावश्यक यूपीआई खर्चों को कम करने से आपका स्कोर तेजी से बढ़ेगा।",
+        "timestamp": "07:08 pm"
+      },
+      {
+        "id": "msg_1788529137304",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "Mera score itna low kyu hai?",
+        "timestamp": "07:08 pm"
+      },
+      {
+        "id": "msg_1788529137311",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "आपका वर्तमान क्रेडोरा स्कोर 785 / 900 (Good) है (Auto/Taxi Driver व्यापार के लिए मूल्यांकन)। आपका स्कोर मुख्य रूप से Expense Volatility and Savings Retention (व्यय स्कोर: 100/150, बचत स्कोर: 145/150) से प्रभावित है। ₹5,000 का लिक्विड बफर बनाए रखने और अनावश्यक यूपीआई खर्चों को कम करने से आपका स्कोर तेजी से बढ़ेगा।",
+        "timestamp": "07:08 pm"
+      },
+      {
+        "id": "msg_1788529137339",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "माझा क्रेडिट स्कोअर कसा सुधारू?",
+        "timestamp": "07:08 pm"
+      },
+      {
+        "id": "msg_1788529137345",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "तुमचा Credora स्कोअर 785 वरून 785+ वर नेण्यासाठी: १) मासिक बचत ₹२५,००० पर्यंत वाढवा (+१४ गुण), २) साप्ताहिक खर्चातील चढ-उतार १५% पेक्षा कमी ठेवा (+१० गुण), आणि ३) सर्व पेमेंट वेळेवर करा. तुमच्या Auto/Taxi Driver व्यवसायासाठी उत्पन्न स्थिरता (185/200) उत्तम आहे.",
+        "timestamp": "07:08 pm"
+      },
+      {
+        "id": "msg_1788529282476",
+        "userId": "usr_jordan_davis_01",
+        "sender": "user",
+        "text": "Why is my credit score low?",
+        "timestamp": "07:11 pm"
+      },
+      {
+        "id": "msg_1788529282509",
+        "userId": "usr_jordan_davis_01",
+        "sender": "ai",
+        "text": "Your current Credora Score is 785 / 900 (Good, Top 15%) evaluated for your trade as a Auto/Taxi Driver. Your score is primarily influenced by Expense Volatility and Savings Retention (Expense Stability: 100/150, Savings Retention: 145/150). Maintaining a consistent liquid cushion of ₹5,000 and smoothing weekly vendor payments will help raise your score.",
+        "timestamp": "07:11 pm"
+      }
+    ],
+    "usr_1788517516720_785": [
+      {
+        "id": "msg_1788517516720",
+        "userId": "usr_1788517516720_785",
+        "sender": "ai",
+        "text": "Namaste Rishikesh! Welcome to Credora. Connect your first bank account via Account Aggregator to calculate your cash-flow credit score!",
+        "timestamp": "Just now"
+      },
+      {
+        "id": "msg_1788522019470",
+        "userId": "usr_1788517516720_785",
+        "sender": "user",
+        "text": "How do I lower financial risk?",
+        "timestamp": "05:10 pm"
+      },
+      {
+        "id": "msg_1788522019500",
+        "userId": "usr_1788517516720_785",
+        "sender": "ai",
+        "text": "Namaste! Based on your verified 90-day cash flow telemetry, your Credora Score is 785 / 785 (Good). Your Auto/Taxi Driver baseline income score is 185/200. How can I assist your financial growth today?",
+        "timestamp": "05:10 pm"
+      },
+      {
+        "id": "msg_1788522031117",
+        "userId": "usr_1788517516720_785",
+        "sender": "user",
+        "text": "helloo",
+        "timestamp": "05:10 pm"
+      },
+      {
+        "id": "msg_1788522031121",
+        "userId": "usr_1788517516720_785",
+        "sender": "ai",
+        "text": "Namaste! Based on your verified 90-day cash flow telemetry, your Credora Score is 785 / 785 (Good). Your Auto/Taxi Driver baseline income score is 185/200. How can I assist your financial growth today?",
+        "timestamp": "05:10 pm"
+      }
+    ],
+    "usr_1788523832565_645": [
+      {
+        "id": "msg_1788523832565",
+        "userId": "usr_1788523832565_645",
+        "sender": "ai",
+        "text": "Namaste Test User! Welcome to Credora. Upload your 90-day transaction CSV or link a bank account via RBI Account Aggregator to calculate your cash-flow credit score!",
+        "timestamp": "Just now"
+      }
+    ]
+  }
+}

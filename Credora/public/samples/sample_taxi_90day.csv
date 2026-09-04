@@ -1,0 +1,31 @@
+Date,Amount,Direction,Counterparty,Description,Balance
+2024-06-01,2400,credit,Uber India Payout,Weekly Ride Settlements,8500
+2024-06-02,1800,credit,Ola Cabs Settlement,Daily Passenger Fares,10300
+2024-06-03,1200,debit,Indian Oil Petrol Pump,CNG & Fuel Outflow,9100
+2024-06-05,2100,credit,UPI Fare Collections,Airport Ride Payments,11200
+2024-06-07,1900,credit,Uber India Payout,Daily Ride Earnings,13100
+2024-06-10,4500,debit,Axis Bank Auto Loan,Monthly Vehicle Loan EMI,8600
+2024-06-12,2600,credit,Ola Cabs Settlement,Daily Passenger Fare,11200
+2024-06-14,1400,debit,Shell Fuel Station,CNG Refill,9800
+2024-06-16,2200,credit,UPI Fare Collections,Daily Ride Earnings,12000
+2024-06-19,1850,credit,Uber India Payout,Daily Settlement,13850
+2024-06-22,2900,credit,Ola Cabs Settlement,Weekend Surge Fare,16750
+2024-06-25,2500,debit,Bosch Auto Garage,Vehicle Oil Change & Service,14250
+2024-06-28,2100,credit,UPI Passenger Fares,Daily Fares,16350
+2024-07-01,2500,credit,Uber India Payout,Weekly Settlement,18850
+2024-07-03,1300,debit,Indian Oil CNG,Fuel Outflow,17550
+2024-07-05,2250,credit,Ola Cabs Settlement,Daily Ride Earnings,19800
+2024-07-10,4500,debit,Axis Bank Auto Loan,Monthly Vehicle Loan EMI,15300
+2024-07-12,2700,credit,Uber India Settlement,Daily Fares,18000
+2024-07-15,1350,debit,Bharat Petroleum,CNG Refill,16650
+2024-07-18,2300,credit,UPI Fare Collections,Daily Rides,18950
+2024-07-22,3100,credit,Ola Cabs Settlement,Weekend Surge Earnings,22050
+2024-07-26,1900,credit,Uber India Payout,Daily Fares,23950
+2024-08-01,2600,credit,Uber India Payout,Weekly Rides,26550
+2024-08-03,1400,debit,Indian Oil CNG,CNG Refill,25150
+2024-08-05,2400,credit,Ola Cabs Settlement,Daily Ride Earnings,27550
+2024-08-10,4500,debit,Axis Bank Auto Loan,Monthly Vehicle Loan EMI,23050
+2024-08-12,2800,credit,Uber India Settlement,Daily Rides,25850
+2024-08-15,1500,debit,Shell Fuel Station,CNG Refill,24350
+2024-08-18,2450,credit,UPI Fare Collections,Daily Rides,26800
+2024-08-22,3200,credit,Ola Cabs Settlement,Weekend Fares,30000

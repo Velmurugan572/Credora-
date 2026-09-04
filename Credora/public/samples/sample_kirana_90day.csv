@@ -1,0 +1,34 @@
+Date,Amount,Direction,Counterparty,Description,Balance
+2024-06-01,12500,credit,UPI/Paytm Customer,Daily Kirana UPI Collections,27500
+2024-06-02,8400,credit,PhonePe Collections,QR Code Sales Settlement,35900
+2024-06-03,15000,debit,METRO Cash & Carry,Wholesale Inventory Purchase,20900
+2024-06-05,9200,credit,Google Pay Merchant,Daily Grocery Collections,30100
+2024-06-07,11000,credit,UPI Direct,Customer Store Credit Payouts,41100
+2024-06-10,12000,debit,HDFC Bank,Monthly Shop Rent EMI,29100
+2024-06-12,14500,credit,Paytm Merchant,Weekend Grocery Outflow,43600
+2024-06-15,6500,debit,Amul Dairy Distributor,Milk & Dairy Restock,37100
+2024-06-18,10200,credit,PhonePe Merchant,Daily Retail Store QR,47300
+2024-06-20,4500,debit,BESCOM Electricity,Shop Utility Bill,42800
+2024-06-22,13800,credit,UPI Customer Payout,Daily QR Collections,56600
+2024-06-25,8500,debit,Britannia Wholesaler,FMCG Inventory Restock,48100
+2024-06-28,11200,credit,Paytm Business,Store QR Settlements,59300
+2024-07-01,13100,credit,Google Pay Merchant,Daily Retail Outflow,72400
+2024-07-03,16500,debit,METRO Wholesale Hub,Monthly Grains & Oils Purchase,55900
+2024-07-05,9800,credit,PhonePe Merchant,Store Collections,65700
+2024-07-10,12000,debit,HDFC Bank,Monthly Shop Rent EMI,53700
+2024-07-12,14200,credit,UPI/Paytm Customer,Daily Kirana QR Payout,67900
+2024-07-15,7200,debit,Amul Dairy Distributor,Milk Supplies,60700
+2024-07-18,11500,credit,PhonePe Merchant,Daily Sales,72200
+2024-07-22,15100,credit,Google Pay QR,Weekend Customer Sales,87300
+2024-07-25,9100,debit,Unilever Distributor,FMCG Restock,78200
+2024-07-28,10800,credit,Paytm Business,Store Collections,89000
+2024-08-01,14000,credit,Google Pay Merchant,Daily Kirana Outflow,103000
+2024-08-03,17000,debit,METRO Cash & Carry,Bulk Inventory Purchase,86000
+2024-08-05,10500,credit,PhonePe Merchant,Daily QR Sales,96500
+2024-08-10,12000,debit,HDFC Bank,Monthly Shop Rent EMI,84500
+2024-08-12,15800,credit,UPI Customer Payout,Daily Store Sales,100300
+2024-08-15,6800,debit,Amul Dairy Distributor,Dairy Restock,93500
+2024-08-18,12200,credit,PhonePe Merchant,Daily Sales,105700
+2024-08-22,14900,credit,Google Pay Merchant,Daily Kirana QR,120600
+2024-08-25,8800,debit,Parle Distributor,Biscuit & Snacks Supplies,111800
+2024-08-28,11600,credit,Paytm Business,Daily QR Settlement,123400
